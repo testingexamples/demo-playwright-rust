@@ -1,0 +1,18 @@
+[package]
+name = "demo-playwright-rust"
+version = "1.0.0"
+edition = "2021"
+description = "Demo Playwright Rust"
+license = "MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause"
+authors = ["Joel Parker Henderson <joel@joelparkerhenderson.com>"]
+repository = "https://github.com/testingexamples/demo-playwright-rust/"
+publish = false
+
+[[bin]]
+name = "demo-playwright-rust"
+path = "src/main.rs"
+
+[dependencies]
+playwright-rs = "0.17"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"

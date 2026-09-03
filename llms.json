@@ -1,0 +1,31 @@
+{
+  "name": "demo-playwright-rust",
+  "summary": "A small Rust walkthrough demo that uses the playwright-rs crate to launch Chromium, navigate to testingexamples.github.io, and demonstrate locator strategies and form interactions.",
+  "description": "Demonstration of Playwright browser automation using Rust and the playwright-rs crate, launching Chromium to navigate to https://testingexamples.github.io and demonstrate locating elements by id, name, class, link text, and XPath, then filling a text input, checking a checkbox, checking a radio button, and selecting an option in a select element.",
+  "repository": "https://github.com/testingexamples/demo-playwright-rust",
+  "license": "GPL-2.0-or-later",
+  "sections": [
+    {
+      "title": "Docs",
+      "links": [
+        { "title": "README", "url": "README.md", "description": "Install and run instructions." },
+        { "title": "Spec", "url": "spec/index.md", "description": "The exact scenario this demo walks through - target URL, every locator, every form interaction." },
+        { "title": "Agent instructions", "url": "AGENTS.md", "description": "Source-of-truth pointer and non-negotiables for agents working on this repo." },
+        { "title": "Citation", "url": "CITATION.cff", "description": "How to cite this software." }
+      ]
+    },
+    {
+      "title": "Source",
+      "links": [
+        { "title": "main.rs", "url": "src/main.rs", "description": "The Playwright walkthrough program itself." }
+      ]
+    },
+    {
+      "title": "Optional",
+      "links": [
+        { "title": "Live site under test", "url": "https://testingexamples.github.io", "description": "The public page the demo automates." },
+        { "title": "playwright-rs on crates.io", "url": "https://crates.io/crates/playwright-rs", "description": "The Rust crate this demo depends on." }
+      ]
+    }
+  ]
+}
