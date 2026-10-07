@@ -2,7 +2,7 @@
 
 This repo is a small Playwright walkthrough demo, written in Rust using the
 `playwright-rs` crate, that launches Chromium, navigates to
-https://testingexamples.github.io, and demonstrates five ways to locate
+https://testingexamples.github.io/en-001/practice/, and demonstrates five ways to locate
 elements plus four form interactions, logging what it finds at each step.
 
 `spec/index.md` is the single source of truth for the exact scenario this

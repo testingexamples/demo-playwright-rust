@@ -1,7 +1,7 @@
 {
   "name": "demo-playwright-rust",
   "summary": "A small Rust walkthrough demo that uses the playwright-rs crate to launch Chromium, navigate to testingexamples.github.io, and demonstrate locator strategies and form interactions.",
-  "description": "Demonstration of Playwright browser automation using Rust and the playwright-rs crate, launching Chromium to navigate to https://testingexamples.github.io and demonstrate locating elements by id, name, class, link text, and XPath, then filling a text input, checking a checkbox, checking a radio button, and selecting an option in a select element.",
+  "description": "Demonstration of Playwright browser automation using Rust and the playwright-rs crate, launching Chromium to navigate to https://testingexamples.github.io/en-001/practice/ and demonstrate locating elements by id, name, class, link text, and XPath, then filling a text input, checking a checkbox, checking a radio button, and selecting an option in a select element.",
   "repository": "https://github.com/testingexamples/demo-playwright-rust",
   "license": "MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause",
   "sections": [
@@ -45,7 +45,7 @@
       "links": [
         {
           "title": "Live site under test",
-          "url": "https://testingexamples.github.io",
+          "url": "https://testingexamples.github.io/en-001/practice/",
           "description": "The public page the demo automates."
         },
         {

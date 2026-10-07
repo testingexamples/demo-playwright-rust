@@ -36,7 +36,7 @@ async fn main() -> anyhow::Result<()> {
 
 async fn run_demo(page: &Page) -> anyhow::Result<()> {
     // Navigate to the site.
-    page.goto("https://testingexamples.github.io", None).await?;
+    page.goto("https://testingexamples.github.io/en-001/practice/", None).await?;
 
     // ---
     // Find elements in various ways.

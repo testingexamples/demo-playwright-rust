@@ -32,7 +32,7 @@ walkthrough, not a test suite.
 
 ## Detail
 
-Target URL: `https://testingexamples.github.io`
+Target URL: `https://testingexamples.github.io/en-001/practice/`
 
 Locator strategies demonstrated, in order:
 
@@ -66,7 +66,7 @@ Form interactions performed, in order:
 
 ## Acceptance criteria
 
-- The program navigates to `https://testingexamples.github.io` without
+- The program navigates to `https://testingexamples.github.io/en-001/practice/` without
   error.
 - Each of the five locators above resolves to exactly one element on the
   live page (no timeout or strict-mode-violation error from Playwright).
@@ -82,5 +82,5 @@ Form interactions performed, in order:
 
 ## Sources
 
-- [https://testingexamples.github.io](https://testingexamples.github.io)
+- [https://testingexamples.github.io/en-001/practice/](https://testingexamples.github.io/en-001/practice/)
 - [https://crates.io/crates/playwright-rs](https://crates.io/crates/playwright-rs)

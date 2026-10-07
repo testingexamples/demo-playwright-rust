@@ -6,7 +6,7 @@ description: Use when asked to run, explain, or extend the demo-playwright-rust 
 # Demo Playwright Rust Skill
 
 This repo teaches five Playwright locator strategies and four form
-interactions against the public page https://testingexamples.github.io,
+interactions against the public page https://testingexamples.github.io/en-001/practice/,
 using the `playwright-rs` crate (`padamson/playwright-rust`) — actively
 maintained but still pre-1.0. Do not confuse it with the older, abandoned
 `playwright` crate (`octaltree/playwright-rust`).
